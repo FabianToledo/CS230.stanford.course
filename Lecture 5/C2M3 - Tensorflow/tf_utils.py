@@ -1,6 +1,6 @@
 import h5py
 import numpy as np
-import tensorflow as tf
+import tensorflow.compat.v1 as tf #import tensorflow as tf # As I'm using tensorFlow 2, import v1 compatibility
 import math
 
 def load_dataset():
